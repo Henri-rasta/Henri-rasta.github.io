@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lista de Personagens</title>
+  <style>
+    .grid-personagens {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .grid-personagens a {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      display: block;
+    }
+    .grid-personagens img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #ccc;
+      transition: border-color 0.3s;
+    }
+    .grid-personagens img:hover {
+      border-color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lista de Personagens</h1>
+  <div class="grid-personagens">
+    <a href="personagem-naruto.html">
+      <img src="imagens/naruto.jpg" alt="Naruto" />
+      Naruto
+    </a>
+    <a href="personagem-sasuke.html">
+      <img src="imagens/sasuke.jpg" alt="Sasuke" />
+      Sasuke
+    </a>
+    <!-- Adicione os outros personagens seguindo esse mesmo modelo -->
+  </div>
+</body>
+</html>
