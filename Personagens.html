@@ -1,47 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <title>Lista de Personagens</title>
+  <meta charset="UTF-8">
+  <title>Naruto - Jutsus e Outfits</title>
   <style>
-    .grid-personagens {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-      gap: 15px;
+    body {
+      font-family: Arial, sans-serif;
       padding: 20px;
     }
-    .grid-personagens a {
-      text-align: center;
-      text-decoration: none;
-      color: black;
-      font-weight: bold;
-      display: block;
+    h1, h2 {
+      color: #ff6600;
     }
-    .grid-personagens img {
-      width: 100px;
-      height: 100px;
-      object-fit: cover;
-      border-radius: 8px;
-      border: 2px solid #ccc;
-      transition: border-color 0.3s;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
     }
-    .grid-personagens img:hover {
-      border-color: #ff6600;
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
     }
   </style>
 </head>
 <body>
-  <h1>Lista de Personagens</h1>
-  <div class="grid-personagens">
-    <a href="personagem-naruto.html">
-      <img src="imagens/naruto.jpg" alt="Naruto" />
-      Naruto
-    </a>
-    <a href="personagem-sasuke.html">
-      <img src="imagens/sasuke.jpg" alt="Sasuke" />
-      Sasuke
-    </a>
-    <!-- Adicione os outros personagens seguindo esse mesmo modelo -->
-  </div>
+
+  <h1>Naruto Uzumaki</h1>
+
+  <h2>Jutsus</h2>
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Level</th>
+      <th>Cooldown</th>
+      <th>Tempo Ativo</th>
+      <th>Descrição</th>
+    </tr>
+    <tr>
+      <td>Rasengan</td>
+      <td>50</td>
+      <td>8s</td>
+      <td>-</td>
+      <td>Um poderoso golpe de chakra concentrado.</td>
+    </tr>
+    <tr>
+      <td>Shadow Clone Jutsu</td>
+      <td>40</td>
+      <td>15s</td>
+      <td>10s</td>
+      <td>Cria clones que ajudam no combate.</td>
+    </tr>
+    <tr>
+      <td>Multi Shadow Clone</td>
+      <td>80</td>
+      <td>25s</td>
+      <td>15s</td>
+      <td>Invoca vários clones simultaneamente.</td>
+    </tr>
+    <tr>
+      <td>Summon Gamabunta</td>
+      <td>100</td>
+      <td>60s</td>
+      <td>30s</td>
+      <td>Invoca o sapo gigante Gamabunta para auxiliar na luta.</td>
+    </tr>
+    <tr>
+      <td>Wind Style: Rasenshuriken</td>
+      <td>120</td>
+      <td>20s</td>
+      <td>-</td>
+      <td>Lança um Rasengan cortante de vento, causando dano massivo em área.</td>
+    </tr>
+    <tr>
+      <td>Sage Mode</td>
+      <td>150</td>
+      <td>90s</td>
+      <td>40s</td>
+      <td>Entra no modo sábio, aumentando atributos e regeneração.</td>
+    </tr>
+    <tr>
+      <td>Tailed Beast Bomb</td>
+      <td>180</td>
+      <td>120s</td>
+      <td>-</td>
+      <td>Dispara uma enorme esfera de chakra da Kyuubi, causando dano extremo.</td>
+    </tr>
+    <tr>
+      <td>Kyuubi Cloak</td>
+      <td>160</td>
+      <td>60s</td>
+      <td>30s</td>
+      <td>Cobre o usuário com o manto da Kyuubi, aumentando defesa e ataque.</td>
+    </tr>
+    <tr>
+      <td>Sexy Jutsu</td>
+      <td>1</td>
+      <td>5s</td>
+      <td>5s</td>
+      <td>Confunde o inimigo, deixando-o paralisado por um curto período.</td>
+    </tr>
+    <tr>
+      <td>Kurama Fusion</td>
+      <td>200</td>
+      <td>180s</td>
+      <td>60s</td>
+      <td>Funde-se completamente com a Kyuubi, liberando seu máximo poder.</td>
+    </tr>
+  </table>
+
+  <h2>Outfits / Skins</h2>
+  <ul>
+    <li>Skin Clássica</li>
+    <li>Modo Sábio</li>
+    <li>Modo Kyuubi</li>
+    <li>Roupa de Hokage</li>
+    <li>Modo Kurama Completo</li>
+  </ul>
+
 </body>
 </html>
